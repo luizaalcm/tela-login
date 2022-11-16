@@ -1,0 +1,47 @@
+@charset "UFT-8";
+
+:root{
+    --cor0:white;
+    --cor1:#2E2FE9;
+    --cor2:black;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body,html{
+    background-color: var(--cor0);
+    height: 100vh;
+    width: 100vh;
+}
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vh;
+
+    }
+main > p > label{
+    top: 85%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+p > label{
+    width: 200px;
+}
+
+ul{
+ position: absolute;
+    display: flex;
+    top: 85%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+ul > li {
+    list-style: none;
+   padding: 20px;
+}
+ul > li >img{
+   width: 30px; 
+   border-radius: 50%;
+}

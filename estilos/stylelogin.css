@@ -1,0 +1,45 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'Argen' ;
+    src: url(/fontes/ArgentumSans-Black.otf);
+}
+:root{
+    --cor0:white;
+    --cor1:#2E2FE9;
+    --cor2:black;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body,html{
+    background-color: var(--cor0);
+    height: 100vh;
+    width: 100vh;
+    font-family: 'Argen',Arial, Helvetica, sans-serif;
+    position: relative;
+}
+main{
+position: relative;
+height: 100vh;
+width: 100vh;
+}
+main > h1{
+    position: absolute;
+   top: 15%;
+   left: 12%;
+   transform: translate(-50%,-50%);
+}
+main > p#w{
+    position: absolute;
+   top: 10%;
+   left: 12%;
+   transform: translate(-50%,-50%);
+}
+main > p#f{
+    position: absolute;
+   top: 50%;
+   left: 12%;
+   transform: translate(-50%,-50%);
+}
