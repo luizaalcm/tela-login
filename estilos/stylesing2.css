@@ -1,5 +1,8 @@
 @charset "UFT-8";
-
+@font-face {
+    font-family:'Argen' ;
+    src: url(/fontes/ArgentumSans-Black.otf);
+}
 :root{
     --cor0:white;
     --cor1:#2E2FE9;
@@ -9,6 +12,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: 'Argen',Arial, Helvetica, sans-serif;
 }
 body,html{
     background-color: var(--cor0);
@@ -33,8 +37,8 @@ p > label{
 ul{
  position: absolute;
     display: flex;
-    top: 85%;
-    left: 40%;
+    top: 72%;
+    left: 50%;
     transform: translate(-50%,-50%);
 }
 ul > li {
@@ -44,4 +48,46 @@ ul > li {
 ul > li >img{
    width: 30px; 
    border-radius: 50%;
+}
+main > form > p#iuser{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+main > form > p#iemail{
+    position: absolute;
+    top: 35%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+}
+main > form > p#isenha{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+form > p#terms{
+    position: absolute;
+    top: 53%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    font-size: 0.9em;
+}
+form > input#submit{
+    width: 180px;
+    height: 34px;
+    background-color:var(--cor1);
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+   top: 60%;
+   left: 37%;
+   transform: translate(-50%,-50%);
+   box-shadow: 2px 2px 5px var(--cor1);
+    color: var(--cor0);
+    font-family:'Argen', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+
 }

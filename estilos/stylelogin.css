@@ -37,9 +37,58 @@ main > p#w{
    left: 12%;
    transform: translate(-50%,-50%);
 }
-main > p#f{
+
+form{
+    width: 100%;
+    max-width: 350px;
+}
+main > form > p#iemail{
     position: absolute;
-   top: 50%;
-   left: 12%;
+    top: 35%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+
+}
+main > form > p#isenha{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+main > form > p#remember{
+    position: absolute;
+    top: 61%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 0.9em;
+ }
+ main > p#forgot{
+    position: absolute;
+    top: 60.5%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+ 
+ }
+ main > p#forgot > a{
+       color: var(--cor2);
+    text-decoration: none;
+    font-size: 0.9em;
+ }
+
+form > input#submit{
+    width: 180px;
+    height: 34px;
+    background-color:var(--cor1);
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+   top: 70%;
+   left: 40%;
    transform: translate(-50%,-50%);
+   box-shadow: 2px 2px 5px var(--cor1);
+    color: var(--cor0);
+    font-family:'Argen', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+
 }
